@@ -1,0 +1,22 @@
+<resources>
+    <declare-styleable name="ShapeImageView">
+        <attr name="shape" format="enum">
+            <enum name="Circle" value="0"/>
+            <enum name="Rectangle" value="1"/>
+            <enum name="RoundRectangle" value="2"/>
+        </attr>
+        <attr name="textStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+            <enum name="bold_italic" value="3"/>
+        </attr>
+        <attr name="radius" format="dimension"/>
+        <attr name="text" format="string"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="borderColor" format="color"/>
+    </declare-styleable>
+</resources>

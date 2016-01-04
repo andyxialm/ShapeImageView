@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.refactor.library.ShapeImageView
+        android:id="@+id/siv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        app:backgroundColor="@color/colorPrimary"
+        app:shape="Circle"
+        app:textColor="#fff"
+        app:textSize="20sp"
+        app:borderWidth="2dp"
+        app:borderColor="@android:color/white"/>
+</LinearLayout>
